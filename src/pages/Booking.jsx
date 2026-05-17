@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import '/ReactToastify.css';
 import { trains } from "../data/trains";
 import { BookingService } from "../services/BookingService";
 
